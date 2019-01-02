@@ -47,17 +47,17 @@ plugins:
     pipeline-stage-tags-metadata: latest
     pipeline-stage-view: latest
     rebuild: latest
-    workflow-aggregator: 2.6
-    workflow-api: 2.33
-    workflow-basic-steps: 2.13
-    workflow-cps: 2.61
-    workflow-cps-global-lib: 2.12
-    workflow-durable-task-step: 2.27
-    workflow-job: 2.31
-    workflow-multibranch: 2.20
-    workflow-scm-step: 2.7
-    workflow-step-api: 2.17
-    workflow-support: 2.24
+    workflow-aggregator: latest
+    workflow-api: latest
+    workflow-basic-steps: latest
+    workflow-cps: latest
+    workflow-cps-global-lib: latest
+    workflow-durable-task-step: latest
+    workflow-job: latest
+    workflow-multibranch: latest
+    workflow-scm-step: latest
+    workflow-step-api: latest
+    workflow-support: latest
     
 unclassified:
   location:
