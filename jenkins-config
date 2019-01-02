@@ -16,7 +16,11 @@ credentials:
               scope: GLOBAL
               id: pgp_helm_pwd
               secret: ${PGP_PASSWORD}
-              
+
+plugins:
+  required:
+    git: latest
+    
 unclassified:
   location:
     url: "http://jenkinsext:8080/"
