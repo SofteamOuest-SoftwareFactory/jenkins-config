@@ -21,6 +21,7 @@ plugins:
   required:
     git: latest
     workflow-aggregator: latest
+    chucknorris: latest
     
 unclassified:
   location:
