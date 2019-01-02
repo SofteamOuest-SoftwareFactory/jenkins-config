@@ -59,15 +59,6 @@ plugins:
     workflow-step-api: latest
     workflow-support: latest
 
-jenkins:
-  securityRealm:
-    github:
-      githubWebUri: "https://github.com"
-      githubApiUri: "https://api.github.com"
-      clientID: "jenkins"
-      clientSecret: "${GITHUB_SECRET}"
-      oauthScopes: "read:org,user:email"
-
 unclassified:
   location:
     url: "http://jenkinsext:8080/"
