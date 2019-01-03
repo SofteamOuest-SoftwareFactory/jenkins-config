@@ -24,10 +24,11 @@ credentials:
               scope: GLOBAL
               id: registry_url
               secret: https://registry.k8.wildwidewest.xyz
-          - string:
+          - usernamePassword:
               scope: GLOBAL
-              id: melkouhen
-              secret: ${GIT_PASSWORD}
+              id: git
+              username: melkouhen
+              password: ${GIT_PASSWORD}
 
 plugins:
   required:
