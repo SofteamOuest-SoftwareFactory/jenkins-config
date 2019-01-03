@@ -138,35 +138,3 @@ unclassified:
         id: "pgp-helm"
         name: "pgp-private-key"
         providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
-
-jobs:
-  - script: >
-      organizationFolder('Github Organization Folder') {
-        description("Softeam Ouest - Projet OPUS")
-        displayName('OPUS')
-
-        // "Projects"
-        organizations {
-          github {
-            // DEPRECATED : bitbucketServerUrl("https://$BITBUCKET_URL")
-            serverUrl("https://github.com/SofteamOuest-Opus")
-            repoOwner("SofteamOuest-Opus")
-            credentialsId("elkouhen-github")
-            // "Traits" ("Behaviours" in the GUI) that are "declarative-compatible"
-            traits {
-              webhookRegistrationTrait {
-                mode('ITEM')
-              }
-              submoduleOptionTrait {
-                extension {
-                  disableSubmodules(false)
-                  recursiveSubmodules(true)
-                  trackingSubmodules(false)
-                  reference(null)
-                  timeout(null)
-                  parentCredentials(true)
-                }
-              }
-            }
-          }
-        }
