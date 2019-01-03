@@ -20,6 +20,14 @@ credentials:
               scope: GLOBAL
               id: sonarqube_token
               secret: ${SONAR_TOKEN}
+          - string:
+              scope: GLOBAL
+              id: registry_url
+              secret: https://registry.k8.wildwidewest.xyz
+          - string:
+              scope: GLOBAL
+              id: melkouhen
+              secret: ${GIT_PASSWORD}
 
 plugins:
   required:
