@@ -138,3 +138,42 @@ unclassified:
         id: "pgp-helm"
         name: "pgp-private-key"
         providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+    - custom:
+        content: "-----BEGIN RSA PRIVATE KEY-----\n\
+        Proc-Type: 4,ENCRYPTED\n\
+        DEK-Info: AES-128-CBC,C77D5F59E8ED43A4E195A15F95CE2C2E\n\
+\n\
+        eSaM7AFIZfljibi2WA14qQUDk2MvocrJFf5bHWf9/BACSnpEnzetYNOw+Usvo8bT\n\
+        ysS08tAvULi3jj2PT2UHOpjujB06yWC/fg4UUAffAzOFtxd+MT+A2F+q3aLhmNjW\n\
+        F4sPvir8/eZ/Irm7tnVHWmCshQnrcB17HA6hPIqMl35m11ZPjvbirYCt0YLNMgu3\n\
+        GH5JRZ6GQ0KLqdIMgjOI3TueJaTuO2/3QXHSyoK/h5xrS0vf5S4kiTD67+p+xWjO\n\
+        1vuyNpyxR2vGKNR6rrl/wpcrrc254oeGqvgHNQ16VBT9cytsozBd6QmxT3zS4M+b\n\
+        7wBnMDfnt9jd4nqlLvV48IywEcVo/6AJbnTM3NhPMrNZ7v6I9j/57Nj1Mrn2bGj1\n\
+        rn11b2TQqF+8sZiulBcciL3k12nxI2ymylMzpM05msr284ShuDFZIXxAIwBQFgZ6\n\
+        SNN8hMDT2Gu0EyLNYKNisg9oSPCxNHROgcGOR8tEtiO2Pker59kIjUB6inH6Bv1/\n\
+        8qVLXnJ1/KsWH6dfDLpycIRPWPg+XPrWOtij4UQspeCPFyC01P/lkfUYZTaQMLPt\n\
+        qTpyfpvd4oMMedQPn8aCBHTAISLPELFsZu4u01idWym27cgkGwnrpbn7RtFbmW6S\n\
+        C8/tuCJIqXU/8rEL4EeTYVHVDtULU7T49w3R+Ln42FOcjELWcrfNOjbaHbWEmOut\n\
+        bTVbiK7iU44UmiY8rNcgACOBgAzK1x1W5a9h37vBtUBJsZl/thoaeiQs7ov6AnU+\n\
+        cUtiYhe9WwcZwnUT+aMCO5dKD8EctGJlXk2vCB4ifca7URNAntfIsDi0aEtPVbSv\n\
+        UJdobPJ3kkcKdhWKHZVbK3y34FfMPWemK+Yk7oXcdwPX1dwwhUPiUdf//cCRUIG5\n\
+        QVaWxrAdddIAFI0qMpF0KQ7Ti/cUqe0BkP/vBjdIbdgBu6JSV1y6nJTslcySODbR\n\
+        jwVT2sbNSOUgmUpgFFR7DImbuJCxCsDPso7/mlwdoXO1U/55YglovlKgz5L3lBW+\n\
+        e5sYVFEyrqDVyd6ya8ogNcKO4nV2NN21DCx6kHvsh8kXNOCJitHF8Znierd7tEJD\n\
+        yrZkvAfACpY/eJYvUlHd3nBtfkM/X2I+cbVnFXlWUHzpnO1xq++xxaoJECcYLcN5\n\
+        Fm5giDgyi1TlconSR+GA6d/LBKCK5Lc10jZqbf9PrH/0yjJn19IryoZiIdt8KLMs\n\
+        Q64x914LihxNV5W3DfhOiwQspj9XM8zy1/zfxMBYy1TWpq9se/428zx7qCtjTAlw\n\
+        YxHryhsO11DrbyIW9qnJWcVTzZXHALINnsY/ppWjyVFO3wiQbRTyUT46C+F9RA2t\n\
+        KWjE/xO9CKI5dflUlISpHwTOqOOg38i7oYFZjBI/dIw/6+130IvquA9qJu5//A+l\n\
+        WjQBic/Zt4RRva6e7ny36Tl3L6dpRA8as6WgSJWL5IHyKdcHU2Sy3xWcnymdoGzE\n\
+        sMaV5SnkTNwAw2Ueu9/RM/6vXZ7kphZS1NKcZpQG1/L9szLWbNIEXjcnT5r9NfS3\n\
+        VNIhs3vbCCwkBWMcyKTr1cP7bGLeSn2jO91k1z8C+MFxPQew12t/bDitv1Pa+z0/\n\
+        -----END RSA PRIVATE KEY-----"
+        id: "jenkins-ssh"
+        name: "jenkins-ssh-private-key"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+    - custom:
+        content: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+NiDc/+yTLx/qNJK0a4u5Zn8fzmi1CBjJQy1RagNBnO5nxfMU+V4Nen004LmSlFnlOY8a3IodsxWAE0vLUN2uxM9CeHpF9ziFnPutqUTMlut4caI0LKc1yhoecWs3Hz9yfD909R3bW7jnPNaHxXeqQAidtVT2YCn/KPdaSb3GftFFUVrgIMnQNHS9W4DnvqQt1ExBMnX8oTotjA5VTRz44Yk8qKQGfU9s9L7RCmwMTqwUzYIwtg7i02LM4rxFyyApkc8m5J1bzynTVisW3XiqmDeGE3r4bD2165aqYwU4nuYjo+HZME6mzlk50seDtmv4NZcpnv9nZRUs3dLogskl jenkins@frp02400"
+        id: "jenkins-ssh"
+        name: "jenkins-ssh-public-key"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
