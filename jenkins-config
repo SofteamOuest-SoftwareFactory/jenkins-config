@@ -34,6 +34,10 @@ credentials:
               id: git
               username: melkouhen
               password: ${GIT_PASSWORD}
+          - string:
+              scope: GLOBAL
+              id: ssh_jenkins_passphrase
+              secret: ${SSH_JENKINS_PASSPHRASE}
 
 plugins:
   required:
