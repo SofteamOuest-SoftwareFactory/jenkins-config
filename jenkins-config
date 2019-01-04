@@ -173,11 +173,11 @@ unclassified:
         sMaV5SnkTNwAw2Ueu9/RM/6vXZ7kphZS1NKcZpQG1/L9szLWbNIEXjcnT5r9NfS3\n\
         VNIhs3vbCCwkBWMcyKTr1cP7bGLeSn2jO91k1z8C+MFxPQew12t/bDitv1Pa+z0/\n\
         -----END RSA PRIVATE KEY-----"
-        id: "jenkins-ssh"
+        id: "jenkins-ssh-private-key"
         name: "jenkins-ssh-private-key"
         providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
     - custom:
         content: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+NiDc/+yTLx/qNJK0a4u5Zn8fzmi1CBjJQy1RagNBnO5nxfMU+V4Nen004LmSlFnlOY8a3IodsxWAE0vLUN2uxM9CeHpF9ziFnPutqUTMlut4caI0LKc1yhoecWs3Hz9yfD909R3bW7jnPNaHxXeqQAidtVT2YCn/KPdaSb3GftFFUVrgIMnQNHS9W4DnvqQt1ExBMnX8oTotjA5VTRz44Yk8qKQGfU9s9L7RCmwMTqwUzYIwtg7i02LM4rxFyyApkc8m5J1bzynTVisW3XiqmDeGE3r4bD2165aqYwU4nuYjo+HZME6mzlk50seDtmv4NZcpnv9nZRUs3dLogskl jenkins@frp02400"
-        id: "jenkins-ssh"
+        id: "jenkins-ssh-public-key"
         name: "jenkins-ssh-public-key"
         providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
