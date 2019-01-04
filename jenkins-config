@@ -1,7 +1,6 @@
 jenkins:
   systemMessage: |
     Serveur Jenkins de SOFTEAM Ouest.
-    Config gérée via 'Jenkins Configuration as Code Plugin' (JCasC).
 
 credentials:
   system:
