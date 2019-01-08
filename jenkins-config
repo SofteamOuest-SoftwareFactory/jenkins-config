@@ -79,6 +79,7 @@ plugins:
     workflow-scm-step: latest
     workflow-step-api: latest
     workflow-support: latest
+    chucknorris: latest
 
 unclassified:
   location:
