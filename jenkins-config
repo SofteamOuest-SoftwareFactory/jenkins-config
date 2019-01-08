@@ -83,7 +83,8 @@ plugins:
 
 unclassified:
   location:
-    url: "http://jenkinsext:8080/"
+    url: "https://jenkins.k8.wildwidewest.xyz/"
+    adminAddress: "mehdi.elkouhen@gmail.com"
   globalConfigFiles:
     configs:
     - custom:
