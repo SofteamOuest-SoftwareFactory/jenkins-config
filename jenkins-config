@@ -50,3 +50,9 @@ unclassified:
         id: "gradle.properties"
         name: "gradle.properties"
         providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+    - custom:
+        content: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6zvfFP6fJcBMTXi5/BLqYpDpY9bq+EOO0vi9XZlKPtc7WBCuJpGZfYA6HLr5K1qSzdNt5nTlThmPJeE/aOPJq3NDnBeIsii0B84mq213XTVqadnf7BYjwkkP6xKLWu/ir01QI9oHQ7gHZzg2WX6DQoRb46Rsiw8a90VTOQnBcpACRdgtBv7fpWZ5Ff/vu67TnPFEF7qeFtTxyFK1bxDgAndK+Em3Sa4m3l3qVl4LIV+UD6hPr2QbREe8Ih5FJbpquFWKhbqeckLdgkuNM/KRNf58kpzPLRMckt1rnHenVcqTDpJdIJ7U3OltC6sUe5kJWRYvEIkxFNc3VD4Ccb0kd\
+          \ jenkins@frp02400"
+        id: "id_rsa.pub"
+        name: "id_rsa.pub"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
