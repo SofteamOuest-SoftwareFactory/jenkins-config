@@ -39,49 +39,6 @@ credentials:
               secret: ${GITHUB_PERSONAL_ACCESS_TOKEN}
 
 
-plugins:
-  required:
-    config-file-provider: latest
-    configuration-as-code: latest
-    configuration-as-code-support: latest
-    credentials: latest
-    credentials-binding: latest
-    git: latest
-    github: latest
-    github-api: latest
-    github-branch-source: latest
-    github-oauth: latest
-    github-organization-folder: latest
-    github-pr-comment-build: latest
-    kubernetes: latest
-    kubernetes-credentials: latest
-    pipeline-build-step: latest
-    pipeline-github-lib: latest
-    pipeline-graph-analysis: latest
-    pipeline-input-step: latest
-    pipeline-milestone-step: latest
-    pipeline-model-api: latest
-    pipeline-model-declarative-agent: latest
-    pipeline-model-definition: latest
-    pipeline-model-extensions: latest
-    pipeline-rest-api: latest
-    pipeline-stage-step: latest
-    pipeline-stage-tags-metadata: latest
-    pipeline-stage-view: latest
-    rebuild: latest
-    workflow-aggregator: latest
-    workflow-api: latest
-    workflow-basic-steps: latest
-    workflow-cps: latest
-    workflow-cps-global-lib: latest
-    workflow-durable-task-step: latest
-    workflow-job: latest
-    workflow-multibranch: latest
-    workflow-scm-step: latest
-    workflow-step-api: latest
-    workflow-support: latest
-    chucknorris: latest
-
 unclassified:
   location:
     url: "https://jenkins.k8.wildwidewest.xyz/"
