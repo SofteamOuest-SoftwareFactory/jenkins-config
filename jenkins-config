@@ -1,3 +1,39 @@
 jenkins:
   systemMessage: |
     Serveur Jenkins de SOFTEAM Ouest.
+
+credentials:
+  system:
+    domainCredentials:
+      - credentials:
+          - usernamePassword:
+              scope: GLOBAL
+              id: elkouhen-github
+              username: elkouhen
+              password: ${GITHUB_PASSWORD}
+          - usernamePassword:
+              scope: GLOBAL
+              id: nexus_user
+              username: admin
+              password: ${NEXUS_PASSWORD}
+          - string:
+              scope: GLOBAL
+              id: pgp_helm_pwd
+              secret: ${PGP_PASSWORD}
+          - string:
+              scope: GLOBAL
+              id: sonarqube_token
+              secret: ${SONAR_TOKEN}
+          - string:
+              scope: GLOBAL
+              id: registry_url
+              secret: https://registry.k8.wildwidewest.xyz
+          - usernamePassword:
+              scope: GLOBAL
+              id: git
+              username: melkouhen
+              password: ${GIT_PASSWORD}
+          - string:
+              scope: GLOBAL
+              id: github_personal_access_token
+              secret: ${GITHUB_PERSONAL_ACCESS_TOKEN}
