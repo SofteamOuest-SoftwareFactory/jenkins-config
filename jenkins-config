@@ -81,3 +81,8 @@ plugins:
     workflow-step-api: latest
     workflow-support: latest
     chucknorris: latest
+
+unclassified:
+  location:
+    url: "https://jenkins.k8.wildwidewest.xyz/"
+    adminAddress: "mehdi.elkouhen@gmail.com"
